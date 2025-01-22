@@ -44,15 +44,15 @@ usain = Runner('Усэйн', 10)
 andr = Runner('Андрей', 9)
 nik = Runner('Ник', 3)
 #
-tour_1 = Tournament(90, usain, nik)
+# tour_1 = Tournament(90, usain, nik)
 # tour_2 = Tournament(90, andr, nik)
 # tour_3 = Tournament(90, usain, andr, nik)
 #
-res_1 = tour_1.start()
+# res_1 = tour_1.start()
 # res_2 = tour_2.start()
 # res_3 = tour_3.start()
 #
-els = res_1[list(res_1.keys())[-1]]
+# els = res_1[list(res_1.keys())[-1]]
 # print(f'res_1 - {els} {type(els)}')
 # print(f'res_2 - {res_2}')
 # print(f'res_3 - {res_3}')
