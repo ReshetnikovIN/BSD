@@ -11,13 +11,11 @@ API_TOKEN = ''
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
-kb = ReplyKeyboardMarkup()
-button = KeyboardButton(text = 'Рассчитать')
+button1 = KeyboardButton(text = 'Рассчитать')
 button2 = KeyboardButton(text='Информация')
 button3 = KeyboardButton(text='Выйти из расчёта')
-kb.add(button)
-kb.add(button2)
-kb.add(button3)
+kb = ReplyKeyboardMarkup().row(
+    button1, button2, button3)
 
 class UserState(StatesGroup):
     age = State()
