@@ -11,7 +11,7 @@ import crud_functions
 
 
 
-API_TOKEN = '7615066286:AAGnncLkc1IUUmKKYXaCet-QHhE9IbVN474'
+API_TOKEN = ''
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
