@@ -20,7 +20,7 @@ def hash_with_pbkdf2(password, salt, iterations=100000):
     dk = hashlib.pbkdf2_hmac('sha256', password_b, salt_b, iterations)
     return binascii.hexlify(dk).decode()
 
-API_TOKEN = '7615066286:AAGnncLkc1IUUmKKYXaCet-QHhE9IbVN474'
+API_TOKEN = ''
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
